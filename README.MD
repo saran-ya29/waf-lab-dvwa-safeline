@@ -56,10 +56,10 @@ Then I tried a malicious input:
 
 ### What happened?
 
-* The website returned all user data 😮
+* The website returned all user data 
 * This means the application is vulnerable to SQL Injection
 
-### 📸 Screenshot
+### Screenshot
 
 ![SQL Injection](screenshots/sqli-attack.png)
 
@@ -77,10 +77,10 @@ I repeated the same SQL Injection attack.
 
 ### Result:
 
-* The request was blocked ✅
+* The request was blocked 
 * WAF detected it as a malicious input
 
-### 📸 Screenshot
+### Screenshot
 
 ![Blocked](screenshots/safeline-blocked.png)
 
